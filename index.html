@@ -328,7 +328,6 @@
                 <div class="g-container">
                     <div id="list_videos_popular_today_videos" class="cards">
                         <div class="cards__list" id="videoList">
-                            <?php include ('api/index.php'); ?>
                         </div>
                     </div>
                 </div>
@@ -373,7 +372,9 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="/static/js/main.js"></script>
-    <script>window.onload = loadVideosPage();</script>
+    <script>
+        window.onload = loadVideosPage();
+    </script>
 </body>
 
 </html>
